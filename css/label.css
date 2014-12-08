@@ -5,3 +5,8 @@
 .lede .content h1 { text-transform: uppercase; font: 90px/90px 'BrandonGrotesque-Black', 'Helvetica Neue', 'Helvetica', sans-serif; padding: 0; margin: 0 0 50px; }
 .lede .content p { font: 400 16px/25px 'Chivo', 'Helvetica', sans-serif; max-width: 540px; color: #556; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
 .showcase { background-color: #d4b5a9; padding: 40px 10px; }
+.showcase .module { background-color: #fff; border: 2px dotted #d4b5a9; max-width: 460px; background-color: #f6f6f6; padding: 20px; }
+.showcase .module img {
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow:    0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+  box-shadow:         0px 1px 3px 0px rgba(0, 0, 0, 0.2); }
