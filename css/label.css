@@ -1,10 +1,10 @@
 body { background-color: #f9ded5; }
 .lede { background-color: #f9ded5; padding: 60px 10px 90px 10px; }
 .lede .eyebrow { font: 400 12px/15px 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: .03em; padding: 16px 0 0 2px; height: 70px; width: 58px; margin-right: 10px; border-bottom: 1px solid #333; color: #333; }
-.lede .eyebrow a { color: #000; }
+.lede .eyebrow a { color: #333; }
 .lede .eyebrow a:hover { text-decoration: none; }
 .lede .series { padding-top: 16px; height: 70px; width: 60px; font: 300 54px/50px 'Oswald', 'Trebuchet MS', sans-serif; color: #fff; }
-.lede .content { margin: 0 0 60px 100px; float: left; }
+.lede .content { margin: 0 0 40px 100px; }
 .lede .content h1 { text-transform: uppercase; font: 90px/100px 'BrandonGrotesque-Black', 'Helvetica Neue', 'Helvetica', sans-serif; padding: 0; margin: 0 0 30px; }
 .lede .content h2 { text-transform: uppercase; font: 11px/15px 'Chivo', 'Helvetica', sans-serif; color: #000; letter-spacing: .13em; margin: 0 5px; }
 .lede .content p { font: 400 16px/25px 'Chivo', 'Helvetica', sans-serif; margin: 30px 0; max-width: 540px; color: #445; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
@@ -22,3 +22,11 @@ body { background-color: #f9ded5; }
 .showcase .resources li { margin-top: 18px; }
 .showcase .resources ul li { margin-top: 0; width: 180px; }
 .showcase .resources ul li a { display: block; color: #a27e65; }
+
+
+@media (max-width: 768px) {
+  .lede .content { clear: both; margin-left: 0; margin-top: 60px; }
+  .lede .content p { max-width: 90%; }
+  .showcase .module { max-width: 90%; }
+  .showcase .resources { margin: 10px 0 40px 10px; }
+}
