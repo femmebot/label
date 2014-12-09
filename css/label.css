@@ -1,12 +1,24 @@
-.lede { background-color: #f9ded5; padding: 60px 10px; }
-.lede .eyebrow { font: 500 12px/15px 'Helvetica Neue', Helvetica, Arial, sans-serif; padding: 16px 0 0 2px; height: 70px; width: 58px; margin-right: 10px; border-bottom: 1px solid #333; color: #333; }
+body { background-color: #f9ded5; }
+.lede { background-color: #f9ded5; padding: 60px 10px 90px 10px; }
+.lede .eyebrow { font: 400 12px/15px 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: .03em; padding: 16px 0 0 2px; height: 70px; width: 58px; margin-right: 10px; border-bottom: 1px solid #333; color: #333; }
+.lede .eyebrow a { color: #000; }
+.lede .eyebrow a:hover { text-decoration: none; }
 .lede .series { padding-top: 16px; height: 70px; width: 60px; font: 300 54px/50px 'Oswald', 'Trebuchet MS', sans-serif; color: #fff; }
 .lede .content { margin: 0 0 60px 100px; float: left; }
-.lede .content h1 { text-transform: uppercase; font: 90px/100px 'BrandonGrotesque-Black', 'Helvetica Neue', 'Helvetica', sans-serif; padding: 0; margin: 0 0 40px; }
-.lede .content p { font: 400 16px/25px 'Chivo', 'Helvetica', sans-serif; max-width: 540px; color: #556; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
-.showcase { background-color: #d4b5a9; padding: 40px 10px 120px 10px; }
+.lede .content h1 { text-transform: uppercase; font: 90px/100px 'BrandonGrotesque-Black', 'Helvetica Neue', 'Helvetica', sans-serif; padding: 0; margin: 0 0 30px; }
+.lede .content h2 { text-transform: uppercase; font: 11px/15px 'Chivo', 'Helvetica', sans-serif; color: #000; letter-spacing: .13em; margin: 0 5px; }
+.lede .content p { font: 400 16px/25px 'Chivo', 'Helvetica', sans-serif; margin: 30px 0; max-width: 540px; color: #445; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+.lede .content p a { color: #a31; }
+.lede .content p a:hover { text-decoration: none; border-bottom: 1px solid #a31; }
+.lede .content hr { width: 15px; margin: 50px 0 15px 0; border-color: #000; }
+.showcase { background: #d4b5a9 url('../images/bg-tile.jpg') repeat; padding: 90px 10px 120px 10px; }
 .showcase .module { background-color: #fff; border: 2px dotted #d4b5a9; max-width: 460px; background-color: #f6f6f6; padding: 20px; }
-.showcase .module img {
+.showcase .module img { float: left; margin-right: 20px;
   -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
   -moz-box-shadow:    0px 1px 3px 0px rgba(0, 0, 0, 0.2);
   box-shadow:         0px 1px 3px 0px rgba(0, 0, 0, 0.2); }
+.showcase ul, .showcase li { padding: 0; margin: 0; list-style: none; font: 12px/15px 'Chivo', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.showcase .resources { float: left; margin-top: 42px; }
+.showcase .resources li { margin-top: 18px; }
+.showcase .resources ul li { margin-top: 0; width: 180px; }
+.showcase .resources ul li a { display: block; color: #a27e65; }
